@@ -4,7 +4,7 @@ This project implements a Defect Detection System using machine learning, specif
 
 ## Access the Application
 
-The application is hosted on Render and can be accessed through the following link: [Defect Detection System on Render](https://ml-defect-detection-system-production.up.railway.app/)
+The application is hosted on Render and can be accessed through the following link: [Defect Detection System on Railway](https://ml-defect-detection-system-production.up.railway.app/)
 
 ## Testing Files
 
