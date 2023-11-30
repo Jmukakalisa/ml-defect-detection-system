@@ -44,7 +44,7 @@ def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in {'png', 'jpg', 'jpeg', 'gif'}
 
 
-# Function to check if the image is grayscale (you may need to customize this check for your use case)
+# Function to check if the image is grayscale
 def is_grayscale(img_array):
     if np.array_equal(img_array[..., 0], img_array[..., 1]) and np.array_equal(img_array[..., 1], img_array[..., 2]):
         return True
